@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>order-pizza</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 id="header">Princess Peach's Pizzaria</h1>
+      <hr class="my-4">
+      <p class="lead">Weclome to Princess Peach's Pizzaria! Here, in the Mushroom Kingdom, no one makes a mad pizza like Princess Peach! Indugle your taste buds and be transported to to the Mushroom Kingdom with your first bite of her famous pie! Due to her numerous
+        kidnappings, supply is limited... So order quick!</p>
+    </div>
+    <img src="img/pizza.jpg" id="pizza-product">
+    <img src="img/peach1.png" id="mainpeach">
+    <h2>Build your pizza and then place your order below!</h2>
+    <hr class="my-4">
+    <form id="pizza-form">
+      <div class="radio">
+        <label>
+          <p>Pick your pizza size:</p>
+          <img src="img/pizzasize.png" id="small">
+          <input type="radio" name="pizza-size" value="small" checked>
+          Small
+        </label>
+        <img src="img/pizzasize.png" id="medium">
+        <label>
+          <input type="radio" name="pizza-size" value="medium">
+          Medium
+        </label>
+        <img src="img/pizzasize.png" id="large">
+        <label>
+          <input type="radio" name="pizza-size" value="large">
+          Large
+        </label>
+        <div class="form-group">
+           <p>Pick your toppings:</p>
+           <img src="img/mushroom.png" class="toppings">
+           <input type="checkbox" name="toppings" value="mushrooms"> Mushrooms
+           <img src="img/flower.png" class="toppings">
+           <input type="checkbox" name="toppings" value="flowers"> Flowers
+           <img src="img/star.png" class="toppings">
+           <input type="checkbox" name="toppings" value="stars"> Stars
+         </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="show-price">
+    </div>
+    <button class="btn btn-danger" id="reset">Reset</button>
+  </div>
+  </div>
+
+</body>
+
+</html>
