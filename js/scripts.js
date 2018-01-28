@@ -18,13 +18,13 @@ $(document).ready(function() {
     return (topping);
   }
 
-//object constructor funtion
+  //object constructor funtion
   function Pizza(topping, size) {
     this.topping = topping;
     this.size = size;
   }
 
-//create pizzaCostrunning funtion with if statments
+  //create prototype pizzaCost running funtion with if statments
   Pizza.prototype.pizzaCost = function() {
     var cost = 5;
     if (this.size == 'medium') {
@@ -43,15 +43,15 @@ $(document).ready(function() {
     return cost;
   }
 
-//reset val to true of false when the reset is submit
+  //reset val to true of false when the reset is submit
   var reset = function() {
-    $('input[value="small"]').prop('checked',true);
-    $('input[value="stars"]').prop('checked',false);
-    $('input[value="flowers"]').prop('checked',false);
-    $('input[value="mushrooms"]').prop('checked',false);
+    $('input[value="small"]').prop('checked', true);
+    $('input[value="stars"]').prop('checked', false);
+    $('input[value="flowers"]').prop('checked', false);
+    $('input[value="mushrooms"]').prop('checked', false);
 
 
-  //  var pizzaTopping = $("#pizzaTopping").val('');
+    //  var pizzaTopping = $("#pizzaTopping").val('');
     $("#show-price").text('')
     $("#reset").hide();
   };
