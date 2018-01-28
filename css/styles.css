@@ -27,6 +27,10 @@ h2 {
   width: auto;
 }
 
+#mariopizza {
+  height: 300px;
+  width: auto;
+}
 body {
   background-color: pink;
   color: white;
@@ -54,4 +58,7 @@ body {
 #large {
   height: 300px;
   width: auto;
+}
+#show-price {
+  display: none;
 }
