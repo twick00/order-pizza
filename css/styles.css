@@ -7,27 +7,35 @@ h2 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
-
 }
+
 .toppings {
   height: 120px;
   width: auto;
-  margin-left: 100px;
+  margin-left: 120px;
+  margin-top: 50px;
 }
+
 #mainpeach {
   height: 400px;
   width: auto;
   margin-left: 150px;
 }
+
 #pizza-product {
   height: 400px;
   width: auto;
 }
+
 body {
-    background-color: pink;
-    color: white;
-    text-shadow: 1px 1px 2px #633963;
-  }
+  background-color: pink;
+  color: white;
+  text-shadow: 2px 2px 3px #633963;
+}
+
+.right {
+  float: right;
+}
 
 .jumbotron {
   background-color: inherit;
@@ -40,7 +48,7 @@ body {
 
 #medium {
   height: 250px;
-  width:auto;
+  width: auto;
 }
 
 #large {
