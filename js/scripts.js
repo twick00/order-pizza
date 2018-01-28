@@ -55,6 +55,8 @@ $(document).ready(function() {
     $('#show-price').text("Your pizza cost is " + "$" + pizzaCost);
     $('#show-price').show();
     $("#reset").show();
+    //found this on stack overflow
+    //it selects the window browser to automatically scroll down to the bottem of the browser after user submits order.
     $(window).scrollTop($(document).height());
   });
 

@@ -12,6 +12,18 @@ This HTML webpage is an exercise for students of EPICODUS to showcase their know
 - open index.html in text editor
 - open index.html in web browser
 
+## Specifications
+* Behavior:
+  * User will be able to pick from 3 different pizza sizes and 3 different toppings into their order. Once the user submits then a price will be generated with the cost of the pizza, follow by the option to reset the order.
+
+* Input example:
+  * Pizza size: Medium
+  * Pizza toppings: Stars and Mushrooms
+
+* Output example:
+  * Your pizza cost is $9.
+
+
 ## Known Bugs
 
 No known bugs
